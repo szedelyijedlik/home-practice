@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navbar design */
+
+header{
+    min-height: 8vh;
+    width: auto;
+    background-color: #282828;
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.nav-brandname a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover{
+    color: aqua;
+    transition: 1s;
+}
+
+/* Page design */
+
+.page-first{
+    height: 92vh;
+    width: auto;
+    background: #999991;
+}
+
+.page-second{
+    height: 95vh;
+    width: auto;
+    background: #555555;
+
+    display: flex;
+}
+
+.page-second-left{
+    height: auto;
+    width: 50%;
+    background: whitesmoke;
+}
+
+.page-second-right{
+    height: auto;
+    width: 50%;
+    background: green;
+}
+
+.content{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.content h1{
+    margin-top: 100px;
+}
+
+/* Footer design */
+
+footer{
+    min-height: 5vh;
+    width: auto;
+    background: #282828;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+}
+
+footer li{
+    display: inline-block;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+
+    border: white;
+}
